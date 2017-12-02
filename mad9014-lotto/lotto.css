@@ -47,3 +47,23 @@
 .page.active {
     display: block;
 }
+@media screen and (max-width:600px){
+    .page{
+        background-color: azure;
+        font-family: fantasy;
+    }
+}
+
+@media screen and (min-width:900px){
+    .page{
+        background-color: navy;
+            font-size: 45px;
+        font-family: "Arial sans-serif";
+    }
+    .page .h1{
+        color:aliceblue;
+    text-shadow:4px 5px 0 blue;
+        
+            
+    }
+}

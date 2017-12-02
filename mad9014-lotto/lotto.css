@@ -1,0 +1,49 @@
+.page {
+    border: 3px solid black;
+    padding 4px 4px 4px 4px;
+    text-align: center;
+    font-family:sans-serif;
+    box-shadow:0 9px 9px rgba(2,90,7,0.5);
+    
+}
+.page .h1 .p {
+    text-shadow:2px 3px 0 blue;
+}
+
+#digits {
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+#max {
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+
+#btnSend{
+    background-color: green;
+    font-family: serif;
+    font-weight: 400;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border:1px solid black;
+}
+
+#btnBack {
+    background-color: green;
+    font-family: serif;
+    font-weight: 400;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border:1px solid black;
+}
+.page {
+    float:none;
+    display: none;
+    background-color: lightcoral;
+    
+}
+.page.active {
+    display: block;
+}
